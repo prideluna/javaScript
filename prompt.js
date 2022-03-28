@@ -1,6 +1,4 @@
     <script>
-   // console.log("----------Itens registrados----------")
-//FUNCAO OK
     function retornaStorage(){
         var j;
         let qtde = localStorage.length;
@@ -11,21 +9,21 @@
             console.log(x)
         }
     }
-//FUNCAO OK
+
     function clearStorage(elemento){
         if (elemento == "clear") {
             localStorage.clear();
         }
     }
-//FUNCAO OK
+
     function addItem(item){
         let i = localStorage.length;
         i++
         localStorage.setItem(i, elemento); 
         var x = localStorage.getItem(i);
         console.log(x)
-        //if(item = null){}
         }
+
     function excluir(item){
         var i;
         let sizeStorage = localStorage.length;
